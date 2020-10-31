@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Oct 31 19:19:34 2020
+# Process ID: 12905
+# Current directory: /home/josejoaquimsarmento/Documents/ecomp/group_repo/submodules/iob-soc-fork/submodules/TIMER/hardware/fpga/vivado/XC7Z
+# Command line: vivado -nojournal -log vivado.log -mode batch -source ../timer.tcl -tclargs iob_timer ../../../../hardware/src/iob_timer.v ../../../../hardware/src/timer.v ../../../../hardware/include ../../../../submodules/LIB/hardware/include ../../../../submodules/INTERCON/hardware/include  XC7Z030c
+# Log file: /home/josejoaquimsarmento/Documents/ecomp/group_repo/submodules/iob-soc-fork/submodules/TIMER/hardware/fpga/vivado/XC7Z/vivado.log
+# Journal file: 
+#-----------------------------------------------------------
+source ../timer.tcl
+# set TOP [lindex $argv 0]
+# set VSRC [lindex $argv 1]
+# set HW_INCLUDE [lindex $argv 2]
+# set HW_DEFINE [lindex $argv 3]
+# set PART [lindex $argv 4]
+# puts $VSRC
+../../../../hardware/src/iob_timer.v ../../../../hardware/src/timer.v
+# foreach file [split $VSRC \ ] {
+#     puts $file
+#     if {$file != "" && $file != " " && $file != "\n"} {
+#         read_verilog -sv $file
+#     }
+# }
+../../../../hardware/src/iob_timer.v
+../../../../hardware/src/timer.v
+# set_property part $PART [current_project]
+ERROR: [Common 17-69] Command failed: Part 'XC7Z030c' not found
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 31 19:19:50 2020...
