@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 TOP_MODULE="iob_timer"
 
 export XILINXPATH=/opt/Xilinx
